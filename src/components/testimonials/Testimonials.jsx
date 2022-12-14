@@ -14,11 +14,11 @@ export default function Testimonials() {
     },
     {
       id: 2, 
-      name: "Jack Loik", 
-      title: "Freelance Photographer", 
+      name: "Diana Hoang", 
+      title: "Registered Dietitian Nutritionist", 
       img: "https://static.wixstatic.com/media/e60290_6ea097c6104f4e6983a711daef268e52~mv2.jpg/v1/fit/w_347,h_201,q_90/e60290_6ea097c6104f4e6983a711daef268e52~mv2.jpg",
       icon: "assets/twitter.png",
-      desc: "Setting up my photography website was a breeze with Simon, I told him how I wanted it to look like and before I knew it, it was all done! Thanks for being so fast, wedding season is almost here!",
+      desc: "Silo helped me set up my new website, making it easier for my patients and clients to use and navigate!",
       featured: true, 
     },
     {
