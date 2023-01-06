@@ -11,7 +11,8 @@
         margin-bottom: 40px;
         
         @include mobile{
-            font-size: 20px;
+            font-size: 30px;
+            
         }
     }
 
@@ -24,6 +25,7 @@
         @include mobile {
             flex-wrap: wrap;
             justify-content: center;
+            
         }
 
         li{
@@ -69,6 +71,7 @@
             @include mobile{
                 width: 130px;
                 height: 100px;
+                margin-bottom: 45px;
             }
 
             h3{

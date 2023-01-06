@@ -13,7 +13,7 @@
         height: 80vh;
     
         @include mobile{
-            font-size: 20px;
+            font-size: 35px;
         }
     }
 
@@ -69,13 +69,13 @@
 
             @include mobile{
                width: 80%;
-               height: 150px;
+               height: 140px;
                margin: 15px 0;
             }
 
            .left{
             flex: 4;
-            height: 80%;
+            height: 55%;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -89,28 +89,33 @@
 
                 @include mobile{
                     width: 100%;
-                    height: 100%;
+                    height: 90%;
                 }
 
                 .imgContainer{
                     width: 40px;
                     height: 40px;
-                    border-radius: 50%;
+                    border-radius: 60%;
                     background-color: cornflowerblue;
                     display: flex;
                     align-items: center;
                     justify-content: center;
 
                     @include mobile{
-                        width: 20px;
-                        height: 20px;
+                        width: 22px;
+                        height: 22px;
+                        margin: auto;
+                        display: block;
+
                     }
 
                     img{
                         width: 25px;
 
                         @include mobile{
-                            width: 15px;
+                            width: 14px;
+                            margin-top: 4px;
+                            margin-left: 4px;
                             
                         }
                     }
@@ -125,6 +130,7 @@
 
                     @include mobile{
                         font-size: 13;
+                        text-align: center;
                     }
                 }
                 p{
