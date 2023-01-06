@@ -11,7 +11,7 @@ export default function Intro() {
       backDelay: 1500,
       backSpeed: 60,
 
-      strings: ["React Developer", "Front-End Designer", "Ideator"],
+      strings: ["React Developer", "Front-End Developer", "Ideator"],
     })
   },[])
   return (

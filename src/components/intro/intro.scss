@@ -2,7 +2,7 @@
 
 
 .intro{
-    background-color: white;
+    background-color: #FCFFE7;
     display: flex;
 
 @include mobile{
@@ -17,7 +17,7 @@
         .imgContainer{
             width: 700px;
             height: 700px;
-            background-color: red;
+            background-color: #BAD7E9;
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
@@ -60,6 +60,7 @@
                 h1{
                     font-size: 50px;
                     margin: 10px 0;
+                    color: #2B3467;
 
                     @include mobile{
                         font-size: 40px;
@@ -68,11 +69,12 @@
                 h2{
                     font-size: 35px;
                     margin: 0;
+                    color: #2B3467;
 
                 }
                 h3{
                    font-size: 30px;
-                   
+                   color: #2B3467;
                    
                    @include mobile{
                     font-size: 20px;
@@ -80,7 +82,7 @@
 
                         span{
                             font-size: inherit;
-                            color: red;
+                            color: #EB455F;
                         }
                             .ityped-cursor{
                                 animation: blink 1s infinite;
