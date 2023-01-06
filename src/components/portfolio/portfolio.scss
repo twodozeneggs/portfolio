@@ -5,11 +5,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    overflow: hidden;
+   
     h1{
         font-size: 50px;
         margin-bottom: 40px;
         color: #FCFFE7;
+        overflow: hidden;
         
         @include mobile{
             font-size: 30px;
@@ -22,6 +24,7 @@
         padding: 0;
         list-style: none;
         display: none;
+        overflow: hidden;
 
         @include mobile {
             flex-wrap: wrap;
@@ -36,6 +39,7 @@
             border-radius: 10px;
             justify-content: center;
             cursor: pointer;
+            overflow: hidden;
 
             @include mobile{
                 border-radius: 10px;
@@ -54,9 +58,11 @@
         justify-content: center;
         flex-wrap: wrap;
         color: #FCFFE7;
+        overflow: hidden;
 
         @include mobile{
             width: 100%;
+            border-radius: 10px;
 
         }
     
