@@ -83,6 +83,31 @@
                     align-items: center;
                 }
             }
+            .itemContainer3{
+                display: flex;
+                align-items: center;
+                margin-left: 30px;
+                cursor: pointer;
+
+                @include mobile{
+                    display: none;
+                }
+
+                .icon{
+                    font-size: 18px;
+                    margin-right: 5px;
+                    display: flex;
+                    align-items: center;
+
+                }
+
+                .span{
+                    font-size: 15px;
+                    font-weight: 500px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
         }
 
         

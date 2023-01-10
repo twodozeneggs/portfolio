@@ -1,6 +1,6 @@
 
 import './topbar.scss'
-import {Person, Mail, GitHub} from "@material-ui/icons"
+import {Person, Mail, GitHub, Work} from "@material-ui/icons"
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
 
@@ -8,7 +8,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
     window.open(url, '_blank', 'noopener,noreferrer');
   };
 
-
+  
   return (
     <div className={"topbar " + (menuOpen && "active")}>  
         <div className="wrapper">
@@ -27,6 +27,10 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
               <div className="itemContainer2">
                 <GitHub className="icon" onClick={() => openInNewTab('https://github.com/twodozeneggs')}/>
                 <span className="icon" onClick={() => openInNewTab('https://github.com/twodozeneggs') }>Github</span>
+              </div>
+              <div className='itemContainer3'>
+                <Work className="icon" onClick={() => openInNewTab('https://drive.google.com/file/d/13-z2GYdknqqDsmc8DdqrC0i7dex24qEF/view?usp=sharing')}/>
+                <span className="icon" onClick={() => openInNewTab('https://drive.google.com/file/d/13-z2GYdknqqDsmc8DdqrC0i7dex24qEF/view?usp=sharing') }>Resume</span>
               </div>
             </div>
             <div className="right">
